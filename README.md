@@ -25,8 +25,4 @@ git clone https://github.com/jefdoria/EBAC-Curso.git
         - git push (enviar alterações ao repositório)
         - git pull (puxar / trazer alterações do GitHub para sua máquina)
         - teste 1
-<<<<<<< HEAD
->>>>>>> 084f4180e85fea889d17bf8dc399e9cf73477dec
-=======
         - teste 2
->>>>>>> d91332649aed0fee9f6b66ac37744f2a355391a2
