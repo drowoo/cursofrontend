@@ -18,13 +18,6 @@
 git clone https://github.com/jefdoria/EBAC-Curso.git
 
 ## Commits
-<<<<<<< HEAD
-Informação de alteração
-    - após testado todo seu código
-    - git add *
-    - git commit -m "mensagem"
-    - git push (enviar alterações ao repositório)
-=======
     Informação de alteração
         - após testado todo seu código
         - git add *
@@ -32,4 +25,8 @@ Informação de alteração
         - git push (enviar alterações ao repositório)
         - git pull (puxar / trazer alterações do GitHub para sua máquina)
         - teste 1
+<<<<<<< HEAD
 >>>>>>> 084f4180e85fea889d17bf8dc399e9cf73477dec
+=======
+        - teste 2
+>>>>>>> d91332649aed0fee9f6b66ac37744f2a355391a2
