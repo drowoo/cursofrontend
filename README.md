@@ -33,5 +33,3 @@ Informação de alteração
         - git pull (puxar / trazer alterações do GitHub para sua máquina)
         - teste 1
 >>>>>>> 084f4180e85fea889d17bf8dc399e9cf73477dec
-
-    - teste 2
