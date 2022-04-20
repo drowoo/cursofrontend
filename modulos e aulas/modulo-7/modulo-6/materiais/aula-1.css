@@ -1,0 +1,30 @@
+/*arquivo css*/
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: Poppins;
+}
+
+ header{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 3.1rem;
+    color: #e0bb9d;
+}
+#navegacao{
+    text-align: center;
+    background-color: #EECFB5;
+}
+h1{
+    font-size: 2.0rem;
+}
+
+p{
+    font-size: 1.6rem;
+}
+
+#link{
+    display: block;
+}

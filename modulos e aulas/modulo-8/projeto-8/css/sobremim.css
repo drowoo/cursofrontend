@@ -1,0 +1,36 @@
+@media screen and (max-width: 1250px) {
+    .imagem img {display:none;}
+}
+
+.imagem img{
+    float: left;
+    width: 50%;
+    position: absolute;
+    bottom: 2px;
+}
+
+.sobremim{
+    width: 45%;
+    margin-top: 8%;
+    margin-right: 2%;
+    float: right;
+
+}
+
+.sobremim h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 7.0rem;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2px;
+
+}
+
+.sobremim p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.8rem;
+    padding-top: 15px;
+    letter-spacing: 2px;
+    color: #f0a8b4;
+    font-weight: lighter;
+}

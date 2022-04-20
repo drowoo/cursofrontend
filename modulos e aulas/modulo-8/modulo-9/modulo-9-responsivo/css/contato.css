@@ -1,0 +1,143 @@
+
+  .row{
+    margin-top: 25px;
+    margin-left: 5%;
+  }
+  
+  .column {
+    width: 55%;
+    margin-top: 50%;
+  }
+  
+  .row form{
+    width: 105%;
+  }
+
+  .row h1{
+      font-family: 'Amatic SC', cursive;
+      font-size: 7.0rem;
+      color: white;
+      font-weight: lighter;
+      letter-spacing: 2px;
+  }
+  
+  .row p{
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 1.8rem;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      letter-spacing: 2px;
+      color: #f0a8b4;
+      font-weight: lighter;
+  }
+  
+
+  .row label{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.4rem;
+    padding-top: 15px;
+    letter-spacing: 1px;
+    color: #f0a8b4;
+    font-weight: bold;
+  }
+
+  ::placeholder{
+      color: rgb(206, 206, 206);
+  }
+
+  .row input[type=text] {
+    border: 2px solid rgb(189, 189, 189);
+    border-radius: 4px;
+    width: 85%;
+    padding: 1.5rem;
+    margin-top: 1.0rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .row input[type=email] {
+    border: 2px solid rgb(189, 189, 189);
+    border-radius: 4px;
+    width: 93%;
+    padding: 1.5rem;
+    margin-top: 1.0rem;
+    margin-bottom: 2.5rem;
+  }
+
+
+  .row select option{
+    color: rgb(114, 114, 114);
+  }
+
+  .row select{
+    border: 2px solid rgb(189, 189, 189);
+    border-radius: 4px;
+    width: 93%;
+    padding: 1.5rem;
+    margin-top: 1.0rem;
+    margin-bottom: 2.5rem;
+    color: rgb(116, 116, 116);
+  }
+  
+  .container {
+    font-size: 1.65rem;
+    margin-top: 2.0rem;
+    margin-bottom: 2.5rem;
+    color: rgb(82, 82, 82);
+  }
+
+  button{
+    width: 20%;
+    margin-top: 35px;
+    margin-left: 72%;
+    border-radius: 8px;
+    padding: 18px 38px;
+    border: 2px solid #f0a8b4;
+    background-color: transparent;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    transition-duration: 0.4s;
+    font-weight: bold;
+    }
+
+  form button:hover{
+    background-color: #f0a8b4;
+    color: rgb(27, 51, 73);
+ }
+
+
+#column{
+  padding-left: 2%;
+  position: absolute;
+  margin-left: 18%;
+  margin-top: 2%;
+}
+
+@media screen and (max-width: 1250px){
+  
+  .row{
+    min-width: 370px;
+    margin: auto;
+  }
+  
+
+  .column{
+    width: 75%;
+    margin-top: 40%;
+  }
+
+  .row form{
+    width: 100%;
+  }
+
+  #column{
+    padding-left: none;
+    margin-left: none;
+    margin-top: 30px;
+  }
+
+  button{
+    font-size: 1.0rem;
+    padding: 20px 15px;
+  }
+}

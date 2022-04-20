@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+	<html lang="pt-br">
+		<head>
+			<title> Fale conosco </title>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width-devide-width, initial-scale-1">
+			<link rel="stylesheet" href="aula-4.css">
+		</head>
+		<body>
+			
+			<header>
+				<h2> Fale Conosco </h2>
+			</header>
+
+			<section>
+
+				<nav>
+					<ul>
+						<li><a href="./05-layouts.html">Home</a> </li>
+						<li><a href="">Sobre</a></li>
+						<li><a href="">Contato</a></li>
+					</ul>
+				</nav>
+
+				<article>
+
+					<h1>Contato</h1>
+                    <p>Preencha os campos abaixo</p>
+                
+                    <form method="POST" style="display: table;">
+                        <div style="display: table-row">
+                            <div style="width: 50rem; display: table-cell;">
+                                <label for="nome">Nome</label><br>
+                                <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                            </div>
+
+                            <div style="display: table-cell; width: 50rem;">
+                                <label for="email">Email</label><br>
+                                <input type="email" name="email" id="email" placeholder="Digite seu email" >
+                            </div>
+                        </div>
+                    </form>
+
+                     <form method="POST">
+
+                        <div>
+                            <label for="Mensagem">Mensagem</label><br>
+                            <textarea name="mensagem" id="mensagem" rows="5"></textarea>
+                        </div>
+
+                        <div>
+                            <!-- escolha única -->
+                            <p> 
+                                <label>Qual linguagem você prefere?</label> 
+                                <input type="radio" name="linguagens"> HTML
+                                <input type="radio" name="linguagens"> CSS
+                                <input type="radio" name="linguagens"> JavaScript
+                            </p>
+                        </div>
+
+                        <div>
+                            <!-- multipla escolha -->
+                            <p> 
+                                <label>Quais linguagens você sabe?</label>
+                                <input type="checkbox" name="linguagens" value="html"> HTML
+                                <input type="checkbox" name="linguagens" value="css"> CSS
+                                <input type="checkbox" name="linguagens" value="javascript"> JavaScript
+                            </p>
+                        </div>
+
+                        <div>
+                            <label>Qual sua cor favorita?</label>
+                            <select>
+                                <option value="Azul">Azul</option>
+                                <option value="Amarelo" selected >Amarelo</option>
+                                <option value="Vermelho">Vermelho</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <input type="submit">
+                        </div>
+                        
+
+                    </form>
+
+					
+				</article>
+
+			</section>
+
+            <footer>
+                <p>Desenvolvido por Júlia</p>
+            </footer>
+
+		</body>
+	</html>

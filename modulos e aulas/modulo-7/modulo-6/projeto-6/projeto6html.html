@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <title>register template</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width-devide-width, initial-scale-1">
+            <link rel="stylesheet" href="./projeto6css.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        </head>
+
+        <body> 
+            <!--create two columns --> 
+            <div class="row">
+                <div class="column" id="column">
+                    <article>
+                        <h3>Register</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus sem et iaculis commodo.</p>
+                        <!-- make two elements stand side by side-->
+                        <form method="POST" style="display: table;">
+                            <div style="display: table-row">
+                                <div style="width: 50rem; display: table-cell;">
+                                    <label for="first name">First Name</label><br>
+                                    <input type="text" name="first name" id="first name" placeholder="Example1">
+                                </div>
+                                <div style="display: table-cell; width: 50rem;">
+                                    <label for="last name">Last Name</label><br>
+                                    <input type="text" name="last name" id="last name" placeholder="Example2" >
+                                </div>
+                            </div>
+                        </form>
+                        <form method="POST">
+                            <div>
+                                <label for="email">Email</label><br>
+                                <input type="email" name="email" id="email" placeholder="example12@your-domain.com" >
+                            </div>
+                        </form>
+                        <form method="POST" style="display: table;">
+                            <div style="display: table-row">
+                                <div style="width: 50rem; display: table-cell;">
+                                    <label for="password">Password</label><br>
+                                    <input type="text" name="nome" id="nome" placeholder="Your Password">
+                                </div>
+                                <div style="display: table-cell; width: 50rem;">
+                                    <label for="re-typepassword">Re-type Password</label><br>
+                                    <input type="text" name="text" id="text" placeholder="Your Password" >
+                                </div>
+                            </div>
+                        </form>
+                        <form action="" method="post">
+                            <div>
+                                <label>Country</label><br>
+                                <select>
+                                    <option value="Brazil">Brazil</option>
+                                    <option value="USA" selected >USA</option>
+                                    <option value="Canada">Canada</option>
+                                </select>
+                            </div>
+                            <label class="container">Creating an account means you're okay with our Terms and Conditions and our Privacy Policy
+                                <input type="checkbox" >
+                            </label>
+                        </form>
+                        <form action="./projeto6html.html">
+                            <input type="submit" value="Submit"/>
+                        </form>
+                    </article>
+                </div>
+                <div class="column">
+                  <img src="./imagem1.jpg" alt="">
+                </div>
+              </div>     
+        </body>
+        
+    </html>

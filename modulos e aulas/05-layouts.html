@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+	<html lang="pt-br">
+		<head>
+			<title> Layouts </title>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width-devide-width, initial-scale-1">
+			<style>
+				* {
+				  box-sizing: border-box;
+				}
+	
+				body {
+				  font-family: Arial, Helvetica, sans-serif;
+				}
+	
+				/* Style the header */
+				header {
+				  background-color: #666;
+				  padding: 30px;
+				  text-align: center;
+				  font-size: 35px;
+				  color: white;
+				}
+	
+				/* Create two columns/boxes that floats next to each other */
+				nav {
+				  float: left;
+				  width: 30%;
+				   
+				  background: #ccc;
+				  padding: 20px;
+				}
+	
+				/* Style the list inside the menu */
+				nav ul {
+				  list-style-type: none;
+				  padding: 0;
+				}
+	
+				article {
+				  float: left;
+				  padding: 20px;
+				  width: 70%;
+				  background-color: #f1f1f1;
+				}
+	
+				/* Clear floats after the columns */
+				section::after {
+				  background: #ccc;
+				  content: "";
+				  display: table;
+				  clear: both;
+				}
+	
+				/* Style the footer */
+				footer {
+				  background-color: #777;
+				  padding: 10px;
+				  text-align: center;
+				  color: white;
+				}
+	
+				/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+				@media (max-width: 600px) {
+				  nav, article {
+					width: 100%;
+					height: auto;
+				  }
+				}
+				</style>
+		</head>
+		<body>
+			
+			<header>
+				<h2> Titulo da página </h2>
+			</header>
+
+			<section>
+
+				<nav>
+					<ul>
+						<li><a href="">Home</a> </li>
+						<li><a href="">Sobre</a></li>
+						<li><a href="./06-formularios.html">Contato</a></li>
+					</ul>
+				</nav>
+
+				<article>
+					<h1>Titulo do Artigo</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae urna ut nisl viverra semper ac a libero. Suspendisse potenti. Pellentesque semper vitae tellus vestibulum rhoncus. In vel ullamcorper elit. Suspendisse potenti. Etiam fringilla libero erat, eu ornare neque pretium in. Nulla porttitor quis dolor sit amet imperdiet. Suspendisse ex nibh, egestas et tortor non, ullamcorper elementum nulla. Sed tempus porttitor augue vitae venenatis. Nunc consequat posuere facilisis.</p>
+					<p>Aliquam vitae volutpat enim. Sed faucibus turpis eu sem ornare sollicitudin. Duis efficitur sed erat ullamcorper pretium. Maecenas nec cursus diam. Donec non condimentum nibh. Proin ultricies lacinia ante. In faucibus ipsum sit amet eros ultrices fringilla. Morbi varius efficitur ligula, ut eleifend mi sodales vitae. Quisque id augue a velit auctor porttitor a hendrerit metus. Mauris vel ipsum et mauris gravida suscipit. Nunc accumsan, magna quis lacinia mollis, massa mauris molestie massa, vel imperdiet odio justo malesuada metus. Aenean porta vitae mauris at gravida. Suspendisse volutpat odio diam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+				</article>
+
+			</section>
+
+            <footer>
+                <p>Desenvolvido por Júlia</p>
+            </footer>
+
+		</body>
+	</html>

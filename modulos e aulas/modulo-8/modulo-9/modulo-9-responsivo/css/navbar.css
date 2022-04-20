@@ -1,0 +1,93 @@
+
+
+.navbar{
+    margin-top: 25px;
+    display: flex; /* height igual para filhos */
+}
+
+.left{
+    float: left;
+    flex: 1;/* width igual*/
+   
+}
+
+.nava{
+    padding-top: 40px;
+}
+
+
+.left a{
+    padding: 14px 20px;
+    font-size: 2.0rem;
+    text-decoration: none;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.left img{
+    margin-left: 15%;
+    width: 14.5rem;
+}
+
+
+.left a:hover{
+    text-decoration: underline;
+    color: #f0a8b4;
+}
+
+
+@media screen and (max-width: 1000px){
+
+    .left a{
+        font-size: 1.5rem;
+        padding: 10px 13px;
+    }
+}
+
+@media screen and (max-width: 775px){
+    
+    .nava{
+        padding-top: 35px;
+    }
+
+    .left{
+        flex: auto;
+    }
+
+    .left img{
+        width: 7.0rem;
+        margin-left: 5%;
+    }
+
+    .left a{
+        padding: 3px 7px;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 415px){
+
+    .navbar{
+        min-width: 370px;
+    }
+    
+    .nava{
+        padding-top: 35px;
+    }
+
+    .left{
+        flex: auto;
+    }
+
+    .left img{
+        width: 7.0rem;
+        margin-left: 5%;
+    }
+
+    .left a{
+        padding: 3px 7px;
+        font-size: 1.2rem;
+    }
+
+}

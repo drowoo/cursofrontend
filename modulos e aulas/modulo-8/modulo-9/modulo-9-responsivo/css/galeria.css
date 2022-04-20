@@ -1,0 +1,72 @@
+.texto h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 7.0rem;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2px;
+
+}
+
+.texto p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.8rem;
+    padding-top: 15px;
+    letter-spacing: 2px;
+    color: #f0a8b4;
+    font-weight: lighter;
+}
+
+
+.texto{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    text-align: center;
+    min-width: 370px;
+}
+
+
+.galeria{
+    width: 70%;
+    margin: auto;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: rgb(42, 78, 112);
+    min-width: 370px;
+}
+
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+  .responsive {
+    padding: 6px 6px;
+    float: left;
+    width: 24.99999%;
+  }
+
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.responsive img{
+    width: 400px;
+    height: 400px;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+
+  
+  @media only screen and (max-width: 500px) {
+    .responsive{
+      width: 100%;
+
+    }
+  }

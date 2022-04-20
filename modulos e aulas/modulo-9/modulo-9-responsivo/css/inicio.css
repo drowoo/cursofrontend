@@ -1,0 +1,131 @@
+
+
+.inicio{
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 8%;
+    float: left;
+}
+
+.imagem img{
+    float: left;
+    width: 67%;
+    position: absolute;
+}
+
+
+.inicio h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 7.0rem;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+.inicio p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.8rem;
+    padding-top: 15px;
+    letter-spacing: 2px;
+    color: #f0a8b4;
+    font-weight: lighter;
+}
+
+
+
+button{
+    margin-top: 80px;
+    margin-left: 55%;
+    border-radius: 8px;
+    padding: 18px 38px;
+    border: 2px solid #f0a8b4;
+    background-color: transparent;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.0rem;
+    transition-duration: 0.4s;
+    font-weight: bold;
+    }
+
+
+form button:hover{
+     background-color: #f0a8b4;
+     color: rgb(27, 51, 73);
+}
+
+.esquerda{
+    width: 50%;
+    float: left;
+}
+
+.direita{
+    width: 50%;
+    float: left;
+}
+
+.esquerda img{
+    width: 6rem;
+    padding: 15px;
+    margin-top: 80px;
+}
+
+
+/*tela menor que 1250*/
+
+@media screen and (max-width: 1250px) {
+    .imagem img {display:none;}
+
+    .inicio{
+        text-align: left;
+        width: 95%;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+
+    .inicio p{
+        columns: 250px 2;
+    }
+
+    .esquerda{
+        width: 40%;
+        float: left;
+     }
+
+     .esquerda img{
+         width: 5.8rem;
+     }
+
+     .direita{
+         float: left;
+         width: 45%;   
+     }
+}
+    
+
+
+@media(max-width: 480px){
+
+    .inicio{
+        text-align: center;
+        width: 95%;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 15%;
+        min-width: 370px;
+    }
+
+    .esquerda{
+        width: 100%;
+        float: none;
+    }
+
+    .direita{
+        float: none;
+        width: 55%;   
+    }
+
+    button{
+        margin-top: 50px;
+    }
+}

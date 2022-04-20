@@ -1,0 +1,35 @@
+html{
+    font-size: 62.5%;
+}
+
+.table{
+    display: table;
+}
+
+.tablerow{
+    display: table-row;
+}
+
+.tablecell{
+    display: table-cell;
+    width: 50rem;
+}
+
+#pink{
+    background-color: hotpink;
+}
+
+.colunm{
+    float: left;
+    width: 50%;
+}
+
+#blue{
+    background-color: indigo;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
