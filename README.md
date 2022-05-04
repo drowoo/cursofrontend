@@ -29,7 +29,7 @@ Informação de alteração
 -Fluxo do git
 
 ### Branchs
--Sao ramificacoes / versoes paralelas
+- Sao ramificacoes / versoes paralelas
 
 - mais / master (quando e publicado)
 - develop (testes e afins)
