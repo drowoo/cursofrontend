@@ -26,7 +26,7 @@ Informação de alteração
 - git pull (puxar / trazer alterações do GitHub para sua máquina)
 
 ## Git Flow
--Fluxo do git
+- Fluxo do git
 
 ### Branchs
 - Sao ramificacoes / versoes paralelas
@@ -34,8 +34,8 @@ Informação de alteração
 - mais / master (quando e publicado)
 - develop (testes e afins)
 
--git checkout -b dev (criar branch)
--git checkout main (muda de branch)
+- git checkout -b dev (criar branch)
+- git checkout main (muda de branch)
 
 ## Merge
 - mescla de branchs
