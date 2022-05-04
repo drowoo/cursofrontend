@@ -34,4 +34,10 @@ sao ramificacoes / versoes paralelas
 - mais / master (quando e publicado)
 - develop (testes e afins)
 
+git checkout -b dev (criar branch)
+git checkout main (muda de branch)
+
+## Merge
+- mescla de branchs
+
         
