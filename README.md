@@ -28,6 +28,7 @@ Informação de alteração
 ## Git Flow
 - Fluxo do git
 
+
 ### Branchs
 - Sao ramificacoes / versoes paralelas
 
@@ -39,5 +40,20 @@ Informação de alteração
 
 ## Merge
 - mescla de branchs
+- git merge main
+- Voce pode precisar resolver conflitos manualmente
+
+### Pull request
+- Mesclas de branch no repositorio
+- Permite code review
+- O repositorio resolve conflitos automaticamente
+
+## configura GitFlow
+- git flow init
+- git flow feature start (nomedafeature)
+- git flow feature finish (nomedafeature)
+
+
+
 
         
